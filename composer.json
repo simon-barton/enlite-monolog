@@ -1,5 +1,5 @@
 {
-    "name": "enlitepro/enlite-monolog",
+    "name": "simon-barton/enlite-monolog",
     "description": "Monolog integration to Zend Framework 2",
     "minimum-stability": "stable",
     "license": "MIT",
@@ -22,7 +22,7 @@
         "zendframework/zend-code": "2.*"
     },
     "require-dev": {
-        "phpunit/phpunit":                      "~3.7"
+        "phpunit/phpunit": "~3.7"
     },
     "autoload": {
         "psr-0": {
