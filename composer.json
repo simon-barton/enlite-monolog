@@ -13,6 +13,9 @@
         "Zend Framework 2",
         "Monolog"
     ],
+    "replace" : {
+	"enlitepro/enlite-monolog": "*"	    
+    },
     "require": {
         "monolog/monolog": "~1.6",
         "zendframework/zend-modulemanager": "2.*",
