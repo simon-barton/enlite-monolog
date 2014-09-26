@@ -5,29 +5,10 @@
 
 namespace EnliteMonolog;
 
-
-use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
-class Module implements
-    AutoloaderProviderInterface,
-    ConfigProviderInterface
+class Module implements ConfigProviderInterface
 {
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getAutoloaderConfig()
-    {
-        return array(
-            'Zend\Loader\StandardAutoloader' => array(
-                'namespaces' => array(
-                    __NAMESPACE__ => __DIR__ . '/../../src/' . __NAMESPACE__,
-                ),
-            )
-        );
-    }
-
     /**
      * {@inheritdoc}
      */
